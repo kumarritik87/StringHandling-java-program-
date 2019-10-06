@@ -1,4 +1,5 @@
 package Solution6;
+/*@ Author:- Ritik Kumar.*/
 
 import java.util.Scanner;
 
