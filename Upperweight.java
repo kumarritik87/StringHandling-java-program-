@@ -9,7 +9,7 @@ public class Upperweight {
         System.out.println("Enter the String :-");
         String s1 = sc.next();
         for(int i = 0; i<s1.length(); i++) {
-            if(s1.charAt(i)>='A' && s1.charAt(i)<= 'z'){
+            if((int)s1.charAt(i)>64 && (int)s1.charAt(i)< 98){
                 upperWeight = upperWeight + (int)s1.charAt(i);
 
             }
